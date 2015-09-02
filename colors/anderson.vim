@@ -51,7 +51,7 @@ hi Constant       guifg=#c7a095 guibg=#363432 gui=none
 hi String         guifg=#88a2a4 guibg=#363432 gui=italic
 hi Character      guifg=#c7a095 guibg=#363432 gui=bold
 hi Number         guifg=#c4c18b guibg=#363432 gui=none
-hi Boolean        guifg=#628b97 guibg=#363432 gui=none
+hi Boolean        guifg=#a8c1c5 guibg=#363432 gui=none
 hi Float          guifg=#c4c18b guibg=#363432 gui=none
 
 " Variable Name
