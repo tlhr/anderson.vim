@@ -44,11 +44,11 @@ let g:colors_name="anderson"
 
 " Main
 hi Normal         guifg=#c5beba guibg=#363432 gui=none
-hi Comment        guifg=#645d59 guibg=#363432 gui=italic
+hi Comment        guifg=#645d59 guibg=#363432 gui=none
 
 " Constant
 hi Constant       guifg=#c7a095 guibg=#363432 gui=none
-hi String         guifg=#88a2a4 guibg=#363432 gui=italic
+hi String         guifg=#88a2a4 guibg=#363432 gui=none
 hi Character      guifg=#c7a095 guibg=#363432 gui=bold
 hi Number         guifg=#c4c18b guibg=#363432 gui=none
 hi Boolean        guifg=#a8c1c5 guibg=#363432 gui=none
@@ -86,7 +86,7 @@ hi SpecialChar    guifg=#f0a4af guibg=#363432 gui=none
 hi SpecialKey     guifg=#7bb292 guibg=#4f4f4f gui=none
 hi Tag            guifg=#f0a4af guibg=#363432 gui=bold
 hi Delimiter      guifg=#e4e4e4 guibg=#363432 gui=none
-hi SpecialComment guifg=#c4c18b guibg=#363432 gui=italic
+hi SpecialComment guifg=#c4c18b guibg=#363432 gui=none
 hi Debug          guifg=#f0a4af guibg=#363432 gui=bold
 hi Underlined     guifg=#c4c18b guibg=#363432 gui=underline
 hi Ignore         guifg=#3f3f3f guibg=#363432 gui=none
