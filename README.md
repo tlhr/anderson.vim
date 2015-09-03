@@ -1,6 +1,6 @@
 anderson.vim
 ============
-Dark vim colorscheme based on colors from Wes Anderson films. Requires 24bit color support.
+Dark vim colorscheme based on colors from Wes Anderson films.
 
 Installation
 ------------
