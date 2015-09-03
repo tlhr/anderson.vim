@@ -54,7 +54,7 @@ if &t_Co >= 256 || has("gui_running")
     hi Ignore         ctermbg=bg ctermfg=13 cterm=NONE      guibg=bg      guifg=#e7c6be gui=NONE
     hi PreProc        ctermbg=bg ctermfg=13 cterm=NONE      guibg=bg      guifg=#e7c6be gui=NONE
     hi Include        ctermbg=bg ctermfg=4  cterm=NONE      guibg=bg      guifg=#628b97 gui=NONE
-    hi Define         ctermbg=bg ctermfg=13 cterm=NONE      guibg=bg      guifg=#e7c6be gui=NONE
+    hi Define         ctermbg=bg ctermfg=4  cterm=NONE      guibg=bg      guifg=#628b97 gui=NONE
     hi Macro          ctermbg=bg ctermfg=13 cterm=NONE      guibg=bg      guifg=#e7c6be gui=NONE
     hi PreCondit      ctermbg=bg ctermfg=13 cterm=bold      guibg=bg      guifg=#e7c6be gui=bold
     hi Special        ctermbg=bg ctermfg=14 cterm=NONE      guibg=bg      guifg=#a8c1c5 gui=NONE
@@ -137,7 +137,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Ignore         ctermbg=bg       ctermfg=magenta     cterm=NONE
     hi PreProc        ctermbg=bg       ctermfg=magenta     cterm=NONE
     hi Include        ctermbg=bg       ctermfg=darkblue    cterm=NONE
-    hi Define         ctermbg=bg       ctermfg=magenta     cterm=NONE
+    hi Define         ctermbg=bg       ctermfg=darkblue    cterm=NONE
     hi Macro          ctermbg=bg       ctermfg=magenta     cterm=NONE
     hi PreCondit      ctermbg=bg       ctermfg=magenta     cterm=bold
     hi Special        ctermbg=bg       ctermfg=cyan        cterm=NONE
