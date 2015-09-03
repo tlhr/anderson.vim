@@ -14,7 +14,6 @@ Screenshots
 -----------
 ![](https://github.com/gilgigilgil/images/blob/master/term.png)
 ![](https://github.com/gilgigilgil/images/blob/master/python.png)
-![](https://github.com/gilgigilgil/images/blob/master/ocaml.png)
 
 License
 -------
