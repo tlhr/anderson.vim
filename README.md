@@ -4,7 +4,7 @@ Dark vim colorscheme based on colors from Wes Anderson films. Requires 24bit col
 
 Installation
 ------------
-Use your the plugin manager of your choice, here is an example for Vim-Plug:
+Use the plugin manager of your choice, here is an example for Vim-Plug:
 
 `Plug 'gilgigilgil/anderson.vim'`
 
