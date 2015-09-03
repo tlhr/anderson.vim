@@ -49,7 +49,7 @@ hi Comment        guifg=#645d59 guibg=#363432 gui=none
 " Constant
 hi Constant       guifg=#c7a095 guibg=#363432 gui=none
 hi String         guifg=#88a2a4 guibg=#363432 gui=none
-hi Character      guifg=#c7a095 guibg=#363432 gui=bold
+hi Character      guifg=#c7a095 guibg=#363432 gui=none
 hi Number         guifg=#c4c18b guibg=#363432 gui=none
 hi Boolean        guifg=#a8c1c5 guibg=#363432 gui=none
 hi Float          guifg=#c4c18b guibg=#363432 gui=none
@@ -62,7 +62,7 @@ hi Function       guifg=#7bb292 guibg=#363432 gui=none
 hi Statement      guifg=#be503e guibg=#363432 gui=none
 hi Conditional    guifg=#628b97 guibg=#363432 gui=none
 hi Repeat         guifg=#628b97 guibg=#363432 gui=none
-hi Label          guifg=#e7c6be guibg=#363432 gui=underline
+hi Label          guifg=#628b97 guibg=#363432 gui=none
 hi Operator       guifg=#a8c1c5 guibg=#363432 gui=none
 hi Keyword        guifg=#d7ae38 guibg=#363432 gui=none
 hi Exception      guifg=#628b97 guibg=#363432 gui=none
@@ -76,8 +76,8 @@ hi PreCondit      guifg=#e7c6be guibg=#363432 gui=bold
 
 " Type
 hi Type           guifg=#c4c18b guibg=#363432 gui=bold
-hi StorageClass   guifg=#e7c6be guibg=#363432 gui=bold
-hi Structure      guifg=#c4c18b guibg=#363432 gui=bold
+hi StorageClass   guifg=#e7c6be guibg=#363432 gui=none
+hi Structure      guifg=#c4c18b guibg=#363432 gui=none
 hi Typedef        guifg=#c4c18b guibg=#363432 gui=bold
 
 " Special
@@ -131,7 +131,7 @@ hi MatchParen     guifg=#c5beba guibg=#645d59 gui=bold
 hi Cursor         guifg=#363330 guibg=#a8c1c5 gui=bold
 hi CursorColumn   guifg=#c5beba guibg=#4f4f4f gui=none
 hi CursorLine     guifg=#c5beba guibg=#4f4f4f gui=none
-hi CursorLineNr   guifg=#c4c18b guibg=#363330 gui=bold
+hi CursorLineNr   guifg=#c4c18b guibg=#363330 gui=none
 hi lCursor        guifg=#363330 guibg=#c5beba gui=none
 
 " Search
