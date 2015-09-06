@@ -10,6 +10,11 @@ Use the plugin manager of your choice, here is an example for Vim-Plug:
 
 `:PlugInstall`
 
+
+To preview:
+
+`:colorscheme anderson`
+
 Screenshots
 -----------
 ![](https://github.com/gilgigilgil/images/blob/master/term.png)
