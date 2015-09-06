@@ -17,8 +17,13 @@ To preview:
 
 Screenshots
 -----------
+Terminal:
 ![](https://github.com/gilgigilgil/images/blob/master/term.png)
+
+Python:
 ![](https://github.com/gilgigilgil/images/blob/master/python.png)
+
+The font used here is Envy Code R.
 
 License
 -------
