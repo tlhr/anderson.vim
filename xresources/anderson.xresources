@@ -1,0 +1,21 @@
+! anderson - dark color scheme for urxvt, xterm etc.
+! append to your ~/.Xresources file or use include:
+! #include "path/to/this/file"
+*foreground: #c5beba
+*background: #363432
+*color0: #363432
+*color1: #be503e
+*color2: #7bb292
+*color3: #d7ae38
+*color4: #628b97
+*color5: #c7a095
+*color6: #88a2a4
+*color7: #c5beba
+*color8: #645d59
+*color9: #f0a4af
+*color10: #9ad1bc
+*color11: #c4c18b
+*color12: #bad4f5
+*color13: #e7c6be
+*color14: #a8c1c5
+*color15: #e4e4e4
