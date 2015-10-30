@@ -43,9 +43,9 @@ let colors_name = "anderson"
 set background=dark
 
 if &t_Co >= 256 || has("gui_running")
-    hi Normal         ctermbg=0  ctermfg=7    cterm=NONE      guibg=#363432 guifg=#c5beba gui=NONE
+    hi Normal         ctermbg=0  ctermfg=15   cterm=NONE      guibg=#363432 guifg=#c5beba gui=NONE
     hi NonText        ctermbg=bg ctermfg=8    cterm=NONE      guibg=bg      guifg=#645d59 gui=NONE
-    hi Comment        ctermbg=bg ctermfg=8    cterm=NONE      guibg=bg      guifg=#645d59 gui=NONE
+    hi Comment        ctermbg=bg ctermfg=7    cterm=NONE      guibg=bg      guifg=#837d7a gui=NONE
     hi Constant       ctermbg=bg ctermfg=5    cterm=NONE      guibg=bg      guifg=#c7a095 gui=NONE
     hi Character      ctermbg=bg ctermfg=5    cterm=NONE      guibg=bg      guifg=#c7a095 gui=NONE
     hi Error          ctermbg=8  ctermfg=1    cterm=NONE      guibg=#645d59 guifg=#be503e gui=NONE
@@ -80,19 +80,19 @@ if &t_Co >= 256 || has("gui_running")
     hi Structure      ctermbg=bg ctermfg=11   cterm=NONE      guibg=bg      guifg=#c4c18b gui=NONE
     hi Typedef        ctermbg=bg ctermfg=11   cterm=NONE      guibg=bg      guifg=#c4c18b gui=NONE
     hi Underlined     ctermbg=bg ctermfg=11   cterm=underline guibg=bg      guifg=#c4c18b gui=underline
-    hi StatusLine     ctermbg=8  ctermfg=7    cterm=NONE      guibg=#645d59 guifg=#c5beba gui=NONE
+    hi StatusLine     ctermbg=8  ctermfg=15   cterm=NONE      guibg=#645d59 guifg=#c5beba gui=NONE
     hi StatusLineNC   ctermbg=bg ctermfg=8    cterm=NONE      guibg=bg      guifg=#645d59 gui=NONE
     hi VertSplit      ctermbg=8  ctermfg=8    cterm=NONE      guibg=#645d59 guifg=#645d59 gui=NONE
     hi TabLine        ctermbg=bg ctermfg=8    cterm=NONE      guibg=bg      guifg=#645d59 gui=NONE
     hi TabLineFill    ctermbg=bg ctermfg=8    cterm=NONE      guibg=bg      guifg=#645d59 gui=NONE
     hi TabLineSel     ctermbg=bg ctermfg=2    cterm=bold      guibg=bg      guifg=#7bb292 gui=bold
-    hi Title          ctermbg=bg ctermfg=15   cterm=NONE      guibg=bg      guifg=#e4e4e4 gui=NONE
-    hi CursorLine     ctermbg=8  ctermfg=7    cterm=NONE      guibg=#645d59 guifg=#c5beba gui=NONE
+    hi Title          ctermbg=bg ctermfg=15   cterm=NONE      guibg=bg      guifg=#c5beba gui=NONE
+    hi CursorLine     ctermbg=8  ctermfg=NONE cterm=NONE      guibg=#645d59 guifg=NONE    gui=NONE
     hi LineNr         ctermbg=bg ctermfg=8    cterm=NONE      guibg=bg      guifg=#645d59 gui=NONE
     hi CursorLineNr   ctermbg=bg ctermfg=2    cterm=bold      guibg=bg      guifg=#7bb292 gui=bold
     hi helpLeadBlank  ctermbg=bg ctermfg=NONE cterm=NONE      guibg=bg      guifg=NONE    gui=NONE
-    hi helpNormal     ctermbg=bg ctermfg=7    cterm=NONE      guibg=bg      guifg=#c5beba gui=NONE
-    hi Visual         ctermbg=8  ctermfg=15   cterm=NONE      guibg=#645d59 guifg=#e4e4e4 gui=NONE
+    hi helpNormal     ctermbg=bg ctermfg=15   cterm=NONE      guibg=bg      guifg=#c5beba gui=NONE
+    hi Visual         ctermbg=8  ctermfg=NONE cterm=NONE      guibg=#645d59 guifg=NONE    gui=NONE
     hi VisualNOS      ctermbg=0  ctermfg=8    cterm=bold      guibg=#363432 guifg=#645d59 gui=bold
     hi Pmenu          ctermbg=8  ctermfg=14   cterm=NONE      guibg=#645d59 guifg=#a8c1c5 gui=NONE
     hi PmenuSbar      ctermbg=8  ctermfg=0    cterm=NONE      guibg=#645d59 guifg=#363432 gui=NONE
@@ -106,28 +106,28 @@ if &t_Co >= 256 || has("gui_running")
     hi DiffChange     ctermbg=11 ctermfg=0    cterm=NONE      guibg=#c4c18b guifg=#363432 gui=NONE
     hi DiffDelete     ctermbg=13 ctermfg=8    cterm=bold      guibg=#e7c6be guifg=#645d59 gui=bold
     hi DiffText       ctermbg=9  ctermfg=0    cterm=bold      guibg=#f0a4af guifg=#363432 gui=bold
-    hi IncSearch      ctermbg=15 ctermfg=4    cterm=bold      guibg=#e4e4e4 guifg=#628b97 gui=bold
+    hi IncSearch      ctermbg=15 ctermfg=4    cterm=bold      guibg=#c5beba guifg=#628b97 gui=bold
     hi Search         ctermbg=12 ctermfg=0    cterm=NONE      guibg=#bad4f5 guifg=#363432 gui=NONE
     hi Directory      ctermbg=bg ctermfg=14   cterm=bold      guibg=bg      guifg=#a8c1c5 gui=bold
-    hi MatchParen     ctermbg=8  ctermfg=7    cterm=bold      guibg=#645d59 guifg=#c5beba gui=bold
+    hi MatchParen     ctermbg=8  ctermfg=9    cterm=bold      guibg=#645d59 guifg=#f0a4af gui=bold
     hi SpellBad       ctermbg=bg ctermfg=NONE cterm=undercurl guibg=bg      guifg=NONE    gui=undercurl guisp=#f0a4af
     hi SpellCap       ctermbg=bg ctermfg=NONE cterm=undercurl guibg=bg      guifg=NONE    gui=undercurl guisp=#bad4f5
     hi SpellLocal     ctermbg=bg ctermfg=NONE cterm=undercurl guibg=bg      guifg=NONE    gui=undercurl guisp=#e7c6be
     hi SpellRare      ctermbg=bg ctermfg=NONE cterm=undercurl guibg=bg      guifg=NONE    gui=undercurl guisp=#a8c1c5
-    hi ColorColumn    ctermbg=8  ctermfg=15   cterm=NONE      guibg=#645d59 guifg=#e4e4e4 gui=NONE
+    hi ColorColumn    ctermbg=8  ctermfg=15   cterm=NONE      guibg=#645d59 guifg=#c5beba gui=NONE
     hi signColumn     ctermbg=bg ctermfg=14   cterm=NONE      guibg=bg      guifg=#a8c1c5 gui=NONE
     hi ErrorMsg       ctermbg=bg ctermfg=1    cterm=bold      guibg=bg      guifg=#be503e gui=bold
     hi ModeMsg        ctermbg=bg ctermfg=2    cterm=NONE      guibg=bg      guifg=#7bb292 gui=NONE
     hi MoreMsg        ctermbg=bg ctermfg=14   cterm=bold      guibg=bg      guifg=#a8c1c5 gui=bold
-    hi Question       ctermbg=bg ctermfg=15   cterm=bold      guibg=bg      guifg=#e4e4e4 gui=bold
+    hi Question       ctermbg=bg ctermfg=15   cterm=bold      guibg=bg      guifg=#c5beba gui=bold
     hi WarningMsg     ctermbg=bg ctermfg=3    cterm=NONE      guibg=bg      guifg=#d7ae38 gui=NONE
     hi Cursor         ctermbg=14 ctermfg=0    cterm=bold      guibg=#a8c1c5 guifg=#363432 gui=bold
-    hi CursorColumn   ctermbg=8  ctermfg=7    cterm=NONE      guibg=#645d59 guifg=#c5beba gui=NONE
+    hi CursorColumn   ctermbg=8  ctermfg=15   cterm=NONE      guibg=#645d59 guifg=#c5beba gui=NONE
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
-    hi Normal         ctermbg=black    ctermfg=gray        cterm=NONE
+    hi Normal         ctermbg=black    ctermfg=white       cterm=NONE
     hi NonText        ctermbg=bg       ctermfg=darkgray    cterm=NONE
-    hi Comment        ctermbg=bg       ctermfg=darkgray    cterm=NONE
+    hi Comment        ctermbg=bg       ctermfg=gray        cterm=NONE
     hi Constant       ctermbg=bg       ctermfg=darkmagenta cterm=NONE
     hi Character      ctermbg=bg       ctermfg=darkmagenta cterm=NONE
     hi Error          ctermbg=darkgray ctermfg=darkred     cterm=NONE
@@ -162,19 +162,19 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Structure      ctermbg=bg       ctermfg=yellow      cterm=NONE
     hi Typedef        ctermbg=bg       ctermfg=yellow      cterm=NONE
     hi Underlined     ctermbg=bg       ctermfg=yellow      cterm=underline
-    hi StatusLine     ctermbg=darkgray ctermfg=gray        cterm=NONE
+    hi StatusLine     ctermbg=darkgray ctermfg=white       cterm=NONE
     hi StatusLineNC   ctermbg=bg       ctermfg=darkgray    cterm=NONE
     hi VertSplit      ctermbg=darkgray ctermfg=darkgray    cterm=NONE
     hi TabLine        ctermbg=bg       ctermfg=darkgray    cterm=NONE
     hi TabLineFill    ctermbg=bg       ctermfg=darkgray    cterm=NONE
     hi TabLineSel     ctermbg=bg       ctermfg=darkgreen   cterm=bold
     hi Title          ctermbg=bg       ctermfg=white       cterm=NONE
-    hi CursorLine     ctermbg=darkgray ctermfg=gray        cterm=NONE
+    hi CursorLine     ctermbg=darkgray ctermfg=NONE        cterm=NONE
     hi LineNr         ctermbg=bg       ctermfg=darkgray    cterm=NONE
     hi CursorLineNr   ctermbg=bg       ctermfg=darkgreen   cterm=bold
     hi helpLeadBlank  ctermbg=bg       ctermfg=NONE        cterm=NONE
-    hi helpNormal     ctermbg=bg       ctermfg=gray        cterm=NONE
-    hi Visual         ctermbg=darkgray ctermfg=white       cterm=NONE
+    hi helpNormal     ctermbg=bg       ctermfg=white       cterm=NONE
+    hi Visual         ctermbg=darkgray ctermfg=NONE        cterm=NONE
     hi VisualNOS      ctermbg=black    ctermfg=darkgray    cterm=bold
     hi Pmenu          ctermbg=darkgray ctermfg=cyan        cterm=NONE
     hi PmenuSbar      ctermbg=darkgray ctermfg=black       cterm=NONE
@@ -191,7 +191,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi IncSearch      ctermbg=white    ctermfg=darkblue    cterm=bold
     hi Search         ctermbg=blue     ctermfg=black       cterm=NONE
     hi Directory      ctermbg=bg       ctermfg=cyan        cterm=bold
-    hi MatchParen     ctermbg=darkgray ctermfg=gray        cterm=bold
+    hi MatchParen     ctermbg=darkgray ctermfg=red         cterm=bold
     hi SpellBad       ctermbg=bg       ctermfg=NONE        cterm=undercurl
     hi SpellCap       ctermbg=bg       ctermfg=NONE        cterm=undercurl
     hi SpellLocal     ctermbg=bg       ctermfg=NONE        cterm=undercurl
@@ -204,7 +204,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Question       ctermbg=bg       ctermfg=white       cterm=bold
     hi WarningMsg     ctermbg=bg       ctermfg=darkyellow  cterm=NONE
     hi Cursor         ctermbg=cyan     ctermfg=black       cterm=bold
-    hi CursorColumn   ctermbg=darkgray ctermfg=gray        cterm=NONE
+    hi CursorColumn   ctermbg=darkgray ctermfg=white       cterm=NONE
 endif
 
 if $NVIM_TUI_ENABLE_TRUE_COLOR == 1
@@ -217,7 +217,7 @@ if $NVIM_TUI_ENABLE_TRUE_COLOR == 1
   let g:terminal_color_4 =     "#628b97"
   let g:terminal_color_5 =     "#c7a095"
   let g:terminal_color_6 =     "#88a2a4"
-  let g:terminal_color_7 =     "#c5beba"
+  let g:terminal_color_7 =     "#837d7a"
   let g:terminal_color_8 =     "#645d59"
   let g:terminal_color_9 =     "#f0a4af"
   let g:terminal_color_10 =    "#9ad1bc"
@@ -225,7 +225,7 @@ if $NVIM_TUI_ENABLE_TRUE_COLOR == 1
   let g:terminal_color_12 =    "#bad4f5"
   let g:terminal_color_13 =    "#e7c6be"
   let g:terminal_color_14 =    "#a8c1c5"
-  let g:terminal_color_15 =    "#e4e4e4"
+  let g:terminal_color_15 =    "#c5beba"
 endif
 
 " Generated with RNB (https://gist.github.com/romainl/5cd2f4ec222805f49eca)
